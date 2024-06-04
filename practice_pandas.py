@@ -1,7 +1,7 @@
-import pandas as pd
+# import pandas as pd
 
 
-df = pd.read_csv("./titanic.csv")
+# df = pd.read_csv("./titanic.csv")
 
 # print(df)
 # print(df[["Age","Name"]])
@@ -38,5 +38,34 @@ df = pd.read_csv("./titanic.csv")
 
 
 
-for age, pclass in zip(df["Age"],["Pclass"]):
-    print(age,pclass)
+# for age, pclass in zip(df["Age"],["Pclass"]):
+#     print(age,pclass)
+
+
+
+# import pandas as pd
+# df= pd.read_csv('./titanic.csv')
+
+# #1
+# print(df[["Age", "Gender",  "Pclass","Fare",  "Survived"]])
+
+# #2
+
+# df=df.dropna(how="any")
+# print(df)
+# #3
+# print(df["Fare"].max())
+
+# #4
+# print(len(df[df['Age'] <=30] ))
+
+# # #5
+# print(df.sort_values("Pclass",ascending=False))
+
+# # #6
+# servived_count == df["Servived"==1]
+# print(df[df[]].groupby(["Gender","Survived"])["Survived"].count())
+
+# # #7
+# print(df.groupby("Gender")["Age"].mean())
+
