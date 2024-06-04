@@ -1,7 +1,7 @@
-# import pandas as pd
+import pandas as pd
 
 
-# df = pd.read_csv("./titanic.csv")
+df = pd.read_csv("./titanic.csv")
 
 # print(df)
 # print(df[["Age","Name"]])
